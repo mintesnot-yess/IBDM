@@ -1,0 +1,47 @@
+ * {
+     box-sizing: border-box;
+     transition: all .3s;
+ }
+
+ html {
+     scroll-behavior: smooth;
+
+ }
+
+ html::-webkit-scrollbar {
+     width: 5px;
+ }
+
+ html::-webkit-scrollbar-thumb {
+     background: #1d4ed8;
+     border-radius: 10px;
+ }
+
+
+
+ @keyframes slide-animation {
+     0% {
+         opacity: 0;
+         -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+         -ms-transform: translateY(100%);
+         -o-transform: translateY(100%);
+         transform: translateY(100%);
+     }
+
+     100% {
+         transform: translateY(0);
+         opacity: 1;
+     }
+
+
+
+ }
+
+
+ .slide-animation {
+     -webkit-animation: slide-animation;
+     animation: slide-animation;
+     animation-timeline: view();
+     animation-range: entry 0% cover 40%;
+ }

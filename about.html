@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - IBDM International</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1d4ed8',
+                        secondary: '#10b981',
+                        dark: '#1e293b',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation (Same as your main page) -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="index.html" class="text-primary font-bold text-2xl">IBDM</a>
+                    </div>
+                    <div class="hidden md:ml-6 md:flex md:space-x-8">
+                        <a href="about.html"
+                            class="border-primary text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About</a>
+                        <a href="services.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Services</a>
+                        <a href="industries.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Industries</a>
+                        <a href="contact.html"
+                            class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center">
+                    <a href="contact.html"
+                        class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium">Get
+                        Consultation</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary"
+                        aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1">
+                <a href="index.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Home</a>
+                <a href="about.html"
+                    class="bg-primary bg-opacity-10 border-primary text-primary block pl-3 pr-4 py-2 border-l-4 text-base font-medium">About</a>
+                <a href="services.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Services</a>
+                <a href="industries.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Industries</a>
+                <a href="contact.html"
+                    class="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">Contact</a>
+                <div class="mt-4 pl-3">
+                    <a href="contact.html"
+                        class="block w-full bg-primary text-white text-center py-2 px-4 rounded-md text-base font-medium">Get
+                        Consultation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero Section -->
+    <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Our Story & Mission</h1>
+            <p class="text-xl max-w-3xl mx-auto">Helping businesses expand globally since 2010 with industry-specific
+                expertise and tailored solutions</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h2 class="text-3xl font-bold text-dark mb-6">Who We Are</h2>
+                    <p class="text-lg text-gray-600 mb-6">IBDM International is a premier business development and
+                        marketing consultancy specializing in global market expansion across key industries including
+                        mining, garment manufacturing, construction, oil & gas, labor export, coffee, and agriculture.
+                    </p>
+                    <p class="text-lg text-gray-600 mb-6">Founded in 2010 by Tensae Moges Tegegn, we've grown from a
+                        regional consultancy to a global partner with offices in 3 continents and successful projects in
+                        over 25 countries.</p>
+                    <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-primary">
+                        <p class="italic text-gray-700 mb-4">"Our vision is to bridge international business gaps by
+                            providing culturally intelligent, industry-specific expansion strategies that create lasting
+                            value for our clients."</p>
+                        <p class="font-semibold">- Tensae Moges Tegegn, Founder & CEO</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:pl-12">
+                    <div class="relative rounded-lg overflow-hidden shadow-xl">
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="IBDM Team" class="w-full h-auto">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+                            <p class="text-white font-medium">The IBDM team at our annual global strategy summit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-dark mb-4">Our Core Values</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">The principles that guide every decision we make</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div
+                        class="bg-blue-100 text-blue-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-bullseye text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-3">Client Success Focus</h3>
+                    <p class="text-gray-600 text-center">We measure our success by our clients' achievements. Your
+                        growth goals become our mission.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div
+                        class="bg-green-100 text-green-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-globe-americas text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-3">Cultural Intelligence</h3>
+                    <p class="text-gray-600 text-center">We navigate cultural nuances to ensure your business resonates
+                        in local markets worldwide.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                    <div
+                        class="bg-primary bg-opacity-10 text-primary w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-chart-line text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-center mb-3">Industry Specialization</h3>
+                    <p class="text-gray-600 text-center">Deep sector expertise allows us to provide tailored solutions,
+                        not generic advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-dark mb-4">Leadership Team</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Experienced professionals guiding your global
+                    expansion</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-48 h-48 mx-auto mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                            alt="Tensae Moges Tegegn" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Tensae Moges Tegegn</h3>
+                    <p class="text-primary font-medium mb-2">Founder & CEO</p>
+                    <p class="text-gray-600 text-sm">20+ years in international business development</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-48 h-48 mx-auto mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                            alt="Sarah Johnson" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Sarah Johnson</h3>
+                    <p class="text-primary font-medium mb-2">Director of Global Operations</p>
+                    <p class="text-gray-600 text-sm">Supply chain and market entry specialist</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-48 h-48 mx-auto mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                            alt="Michael Chen" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Michael Chen</h3>
+                    <p class="text-primary font-medium mb-2">Head of Asia-Pacific</p>
+                    <p class="text-gray-600 text-sm">Expert in Eastern markets and manufacturing</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-gray-100 rounded-full w-48 h-48 mx-auto mb-4 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                            alt="Amina Diallo" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">Amina Diallo</h3>
+                    <p class="text-primary font-medium mb-2">Director of African Markets</p>
+                    <p class="text-gray-600 text-sm">Mining and agricultural export specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Presence -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-12">
+                    <h2 class="text-3xl font-bold text-dark mb-6">Global Reach</h2>
+                    <p class="text-lg text-gray-600 mb-6">With offices in 3 continents and partners in 25+ countries, we
+                        provide truly global coverage with local market expertise.</p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Headquarters</h3>
+                                <p class="text-gray-600">New York, USA</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                <i class="fas fa-building text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Regional Offices</h3>
+                                <p class="text-gray-600">Dubai (UAE), Singapore, Addis Ababa (Ethiopia)</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <div class="bg-primary bg-opacity-10 p-3 rounded-full mr-4">
+                                <i class="fas fa-users text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold mb-1">Global Network</h3>
+                                <p class="text-gray-600">250+ partners across 25 countries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
+                            alt="Global Map" class="w-full h-auto rounded">
+                        <div class="grid grid-cols-3 gap-2 mt-4">
+                            <div class="bg-blue-50 p-2 rounded text-center">
+                                <p class="text-primary font-bold text-2xl">12+</p>
+                                <p class="text-gray-600 text-sm">Years Experience</p>
+                            </div>
+                            <div class="bg-green-50 p-2 rounded text-center">
+                                <p class="text-green-600 font-bold text-2xl">500+</p>
+                                <p class="text-gray-600 text-sm">Clients Served</p>
+                            </div>
+                            <div class="bg-amber-50 p-2 rounded text-center">
+                                <p class="text-amber-600 font-bold text-2xl">25+</p>
+                                <p class="text-gray-600 text-sm">Countries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Expand Your Business Globally?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Our team of industry specialists is ready to help you navigate
+                international markets with confidence.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="contact.html"
+                    class="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-md text-lg font-semibold">Get a
+                    Free Consultation</a>
+                <a href="services.html"
+                    class="bg-transparent border-2 border-white hover:bg-white hover:text-primary px-6 py-3 rounded-md text-lg font-semibold">Explore
+                    Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <span class="text-primary font-bold text-2xl mr-2">IBDM</span>
+                        <span class="text-sm bg-primary px-2 py-1 rounded">Global</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">International Business Development & Marketing solutions for global
+                        expansion across key industries.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin-in text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook-f text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a>
+                        </li>
+                        <li><a href="#industries"
+                                class="text-gray-400 hover:text-white transition-colors">Industries</a>
+                        </li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Our Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Business
+                                Development</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Global Marketing</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Market Research</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Office Solutions</a>
+                        </li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Consulting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-white">Stay Updated</h3>
+                    <p class="text-gray-400 mb-4">Subscribe to our newsletter for industry insights and updates.</p>
+                    <form class="flex flex-col space-y-3">
+                        <input type="email" placeholder="Your email address"
+                            class="px-4 py-2 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary">
+                        <button type="submit"
+                            class="bg-primary hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition-colors">
+                            Subscribe
+                        </button>
+                    </form>
+                    <div class="mt-4 flex items-center">
+                        <i class="fas fa-phone-alt text-gray-400 mr-2"></i>
+                        <span class="text-gray-400">+1 (234) 567-8900</span>
+                    </div>
+                    <div class="mt-2 flex items-center">
+                        <i class="fas fa-envelope text-gray-400 mr-2"></i>
+                        <span class="text-gray-400">info@ibdmglobal.com</span>
+                    </div>
+                </div> -->
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 IBDM International. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back to Top Button -->
+    <button title="Back to Top Button" id="back-to-top"
+        class="hidden fixed bottom-6 right-6 bg-primary text-white  w-11 h-11 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="assets/js/script.js">
+    </script>
+</body>
+
+</html>
