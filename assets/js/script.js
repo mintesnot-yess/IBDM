@@ -42,7 +42,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Back to Top Button
 const backToTopButton = document.createElement('button');
 backToTopButton.id = 'back-to-top';
-backToTopButton.className = 'hidden fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 z-50';
+backToTopButton.className = 'hidden fixed bottom-6 right-6 bg-primary text-white  w-11 h-11 rounded-full shadow-lg hover:bg-blue-700 transition-all duration-300 z-50';
 backToTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
 document.body.appendChild(backToTopButton);
 
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const navLinks = {
         'services': document.querySelector('a[href="#services"]'),
         'industries': document.querySelector('a[href="#industries"]'),
-        'contact': document.querySelector('a[href="#contact"]')
+        'contact': document.querySelector('a[href="index.html#contact"]')
     };
 
     const observerOptions = {
